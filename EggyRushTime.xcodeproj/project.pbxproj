@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72FF17482F2CDA8800254272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF17452F2CDA8800254272 /* Assets.xcassets */; };
+		72FF17492F2CDA8800254272 /* EggyRushTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF17462F2CDA8800254272 /* EggyRushTimeApp.swift */; };
+		72FF17572F2CDB3700254272 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF174E2F2CDB3700254272 /* View+Extensions.swift */; };
+		72FF17582F2CDB3700254272 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF174F2F2CDB3700254272 /* Color+Extensions.swift */; };
+		72FF17592F2CDB3700254272 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF17502F2CDB3700254272 /* ShapeStyle+Extensions.swift */; };
+		72FF175A2F2CDB3700254272 /* ERHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF17522F2CDB3700254272 /* ERHomeWebView.swift */; };
+		72FF175B2F2CDB3700254272 /* ERLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF17542F2CDB3700254272 /* ERLaunchView.swift */; };
+		8ADF2B3130932AEE907A7CFB /* Pods_EggyRushTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BB2043EA439A884A8068B8 /* Pods_EggyRushTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67BB2043EA439A884A8068B8 /* Pods_EggyRushTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggyRushTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF17362F2CDA7500254272 /* EggyRushTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggyRushTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF17452F2CDA8800254272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FF17462F2CDA8800254272 /* EggyRushTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggyRushTimeApp.swift; sourceTree = "<group>"; };
+		72FF174D2F2CDB2C00254272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72FF174E2F2CDB3700254272 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72FF174F2F2CDB3700254272 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72FF17502F2CDB3700254272 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72FF17522F2CDB3700254272 /* ERHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERHomeWebView.swift; sourceTree = "<group>"; };
+		72FF17542F2CDB3700254272 /* ERLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERLaunchView.swift; sourceTree = "<group>"; };
+		D148CF950ECA0095D5D1CE22 /* Pods-EggyRushTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggyRushTime.release.xcconfig"; path = "Target Support Files/Pods-EggyRushTime/Pods-EggyRushTime.release.xcconfig"; sourceTree = "<group>"; };
+		F04BA13890FF853BAD419584 /* Pods-EggyRushTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggyRushTime.debug.xcconfig"; path = "Target Support Files/Pods-EggyRushTime/Pods-EggyRushTime.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72FF17332F2CDA7500254272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADF2B3130932AEE907A7CFB /* Pods_EggyRushTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AE2120CF34D154CDF048B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F04BA13890FF853BAD419584 /* Pods-EggyRushTime.debug.xcconfig */,
+				D148CF950ECA0095D5D1CE22 /* Pods-EggyRushTime.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5162F14DABBD6B347C80B812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BB2043EA439A884A8068B8 /* Pods_EggyRushTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72FF172D2F2CDA7500254272 = {
+			isa = PBXGroup;
+			children = (
+				72FF17472F2CDA8800254272 /* EggyRushTime */,
+				72FF17372F2CDA7500254272 /* Products */,
+				11AE2120CF34D154CDF048B3 /* Pods */,
+				5162F14DABBD6B347C80B812 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72FF17372F2CDA7500254272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72FF17362F2CDA7500254272 /* EggyRushTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72FF17472F2CDA8800254272 /* EggyRushTime */ = {
+			isa = PBXGroup;
+			children = (
+				72FF17512F2CDB3700254272 /* Extensions */,
+				72FF17562F2CDB3700254272 /* Screens */,
+				72FF174D2F2CDB2C00254272 /* Info.plist */,
+				72FF174A2F2CDA8B00254272 /* App */,
+				72FF17452F2CDA8800254272 /* Assets.xcassets */,
+			);
+			path = EggyRushTime;
+			sourceTree = "<group>";
+		};
+		72FF174A2F2CDA8B00254272 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72FF17462F2CDA8800254272 /* EggyRushTimeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72FF17512F2CDB3700254272 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72FF174E2F2CDB3700254272 /* View+Extensions.swift */,
+				72FF174F2F2CDB3700254272 /* Color+Extensions.swift */,
+				72FF17502F2CDB3700254272 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72FF17532F2CDB3700254272 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72FF17522F2CDB3700254272 /* ERHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72FF17552F2CDB3700254272 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72FF17542F2CDB3700254272 /* ERLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72FF17562F2CDB3700254272 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72FF17532F2CDB3700254272 /* HomeWebScreen */,
+				72FF17552F2CDB3700254272 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72FF17352F2CDA7500254272 /* EggyRushTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FF17422F2CDA7700254272 /* Build configuration list for PBXNativeTarget "EggyRushTime" */;
+			buildPhases = (
+				FFE829ABA323BD3D882AA78E /* [CP] Check Pods Manifest.lock */,
+				72FF17322F2CDA7500254272 /* Sources */,
+				72FF17332F2CDA7500254272 /* Frameworks */,
+				72FF17342F2CDA7500254272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggyRushTime;
+			productName = EggyRushTime;
+			productReference = 72FF17362F2CDA7500254272 /* EggyRushTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72FF172E2F2CDA7500254272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72FF17352F2CDA7500254272 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72FF17312F2CDA7500254272 /* Build configuration list for PBXProject "EggyRushTime" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72FF172D2F2CDA7500254272;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72FF17372F2CDA7500254272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72FF17352F2CDA7500254272 /* EggyRushTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72FF17342F2CDA7500254272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF17482F2CDA8800254272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFE829ABA323BD3D882AA78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EggyRushTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72FF17322F2CDA7500254272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF17492F2CDA8800254272 /* EggyRushTimeApp.swift in Sources */,
+				72FF17572F2CDB3700254272 /* View+Extensions.swift in Sources */,
+				72FF17582F2CDB3700254272 /* Color+Extensions.swift in Sources */,
+				72FF17592F2CDB3700254272 /* ShapeStyle+Extensions.swift in Sources */,
+				72FF175A2F2CDB3700254272 /* ERHomeWebView.swift in Sources */,
+				72FF175B2F2CDB3700254272 /* ERLaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72FF17402F2CDA7700254272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72FF17412F2CDA7700254272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72FF17432F2CDA7700254272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04BA13890FF853BAD419584 /* Pods-EggyRushTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggyRushTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eggy Rush Time";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.borovetsproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72FF17442F2CDA7700254272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D148CF950ECA0095D5D1CE22 /* Pods-EggyRushTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggyRushTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eggy Rush Time";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.borovetsproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72FF17312F2CDA7500254272 /* Build configuration list for PBXProject "EggyRushTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF17402F2CDA7700254272 /* Debug */,
+				72FF17412F2CDA7700254272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FF17422F2CDA7700254272 /* Build configuration list for PBXNativeTarget "EggyRushTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF17432F2CDA7700254272 /* Debug */,
+				72FF17442F2CDA7700254272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72FF172E2F2CDA7500254272 /* Project object */;
+}
